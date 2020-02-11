@@ -1,0 +1,39 @@
+.header {
+  background-color: #fff;
+  color: lightgreen;
+  padding: 2rem 0;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+}
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+  }
+  li {
+    display: inline-block;
+    a {
+      display: block;
+      padding: 0.5em 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px;
+    }
+    a:hover {
+      background-color: #ee9480;
+    }
+  }
+  .button{
+    align-items: flex-start;
+    display: flex;
+  }
+}

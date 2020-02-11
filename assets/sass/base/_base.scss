@@ -1,0 +1,38 @@
+.características{
+    .container-img{
+        text-align: center;
+        display: inline;
+    }
+    .container-estadísticas{
+        display: flex;
+        display: grid;
+        display: block;
+        text-align: right;
+    }
+}
+// .container-título{
+//     text-align: center;
+//     margin: 1rem 2rem;
+// }
+// .container-título{
+//     pre{
+//         text-align: center;
+//     }
+// }
+.container-background{
+    background-image: url(../img/bg-hero.svg);
+    height: 965px;
+    width: 100%;
+    h1{
+     margin-left: 65px;
+    }
+}
+
+.container-precios{
+    background-image: url(../img/bg-price.svg);
+    height: 850px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    display: grid;
+}

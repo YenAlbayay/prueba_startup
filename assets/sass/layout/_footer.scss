@@ -1,0 +1,23 @@
+footer {
+  background-color: black;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0;
+  padding: 2 rem 3rem;
+  align-items: center;
+  margin-top: 0rem;
+  z-index: 1000;
+  p {
+    color: white;
+    position: relative;
+    display: inline-block;
+    margin: 1rem;
+  }
+
+  h6 {
+    text-align: right;
+    color: white;
+    padding: 1rem 2rem;
+    align-items: center;
+  }
+}
